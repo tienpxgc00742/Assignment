@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+ <servlet>
+  <servlet-name>upload</servlet-name>
+  <servlet-class>control.upload</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>cart</servlet-name>
+  <servlet-class>control.cart</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>upload</servlet-name>
+  <url-pattern>/upload</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>cart</servlet-name>
+  <url-pattern>/cart</url-pattern>
+ </servlet-mapping>
+ <session-config>
+  <session-timeout>
+   30
+  </session-timeout>
+ </session-config>
+ <welcome-file-list>
+  <welcome-file>
+   index.jsp
+  </welcome-file>
+ </welcome-file-list>
+ <context-param>
+  <description>Location to store uploaded file</description>
+  <param-name>file-path</param-name>
+  <param-value>
+   C:\Users\Administrator\Documents\NetBeansProjects\SP_PJ\web\images
+  </param-value>
+ </context-param>
+ <security-constraint>
+  <web-resource-collection>
+   <web-resource-name>
+    AdminSite
+   </web-resource-name>
+   <url-pattern>/Admin/*</url-pattern>
+   <http-method>GET</http-method>
+   <http-method>POST</http-method>
+  </web-resource-collection>
+  <auth-constraint>
+   <description>
+    Let only managers use this app
+   </description>
+   <role-name>manager</role-name>
+  </auth-constraint>
+ </security-constraint>
+ <security-role>
+  <role-name>manager</role-name>
+</security-role>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+  <realm-name>AppName Beta Release</realm-name>
+ </login-config>
+</web-app>
