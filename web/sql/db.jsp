@@ -93,6 +93,9 @@
       </c:otherwise>
      </c:choose>
     </c:if>
+    <c:if test="${not empty sessionScope['6c6f67696e75736572']}">
+
+    </c:if>
    </c:otherwise>
   </c:choose>
  </body>

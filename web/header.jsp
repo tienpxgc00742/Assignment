@@ -100,10 +100,20 @@
           <!--cart_link END_CACHE-->
          </li>
          <li><a href="./index.jsp/checkout/onepageonepage" title="Checkout" class="top-link-checkout">Checkout</a></li>
+         <c:choose>
+          <c:when test="${empty sessionScope['6c6f67696e75736572']}"
          <li class=" last"><a href="login.jsp" title="Log In">Log In</a></li>
          <li class="login-register">
           <span>/</span><a href="create.jsp" title="Customer Register">Register</a>
          </li>
+         </c:when>
+         <c:otherwise>
+          <li class=" last"><a href="login.jsp" title="Log In">My Account</a></li>
+         <li class="login-register">
+          <span>/</span><a href="create.jsp" title="Customer Register">Log Out</a>
+         </li>
+         </c:otherwise>
+         </c:choose>
         </ul>
        </div>
        <!--<p class="welcome-msg"></p>-->

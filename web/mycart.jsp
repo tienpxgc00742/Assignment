@@ -104,7 +104,7 @@ if ($emptyCartButton && $cartActionContainer) {
               <tr class="first last odd">
                <td class="product-cart-image">
                 <a href="http://themevast.com/demo/tv_bigboom/index.php/aliquam-consequat.html" title="Dummy Product #04" class="product-image">
-                 <img src="http://themevast.com/demo/tv_bigboom/media/catalog/product/cache/1/thumbnail/90x90/9df78eab33525d08d6e5fb8d27136e95/4/_/4_3.jpg">
+                 <img src="./images/${item.image}">
                 </a>
 
                 <ul class="cart-links">
