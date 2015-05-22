@@ -27,8 +27,8 @@
           <div class="page-title">
            <h1>Create an Account</h1>
           </div>
-          <form action="./sql/db.jsp" method="POST" id="form-validate">
-           
+          <form action="./sql/user.jsp.jsp" method="POST" id="form-validate">
+           <input type="hidden" name="action" value="register"/>
            <font color="red">
            <c:if test="${param.response eq 'fail'}">
             <c:out value="Đã tồn tại username hoặc thông tin không chính xác"/>

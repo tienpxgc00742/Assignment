@@ -16,12 +16,6 @@
  </head>
  <body>
   <%@include file="header.jsp" %>
-
-  <script>
-   var initBox = '<div id ="wraper_ajax" class ="loadding_ajaxcart"><i class="fa fa-spinner fa-spin"></i></div>';
-   initBox += '<div style="display:none;" class="wrapper_inboxCart"></div>';
-   jQuery('body').append(initBox);
-  </script>
   <section class="vmegamenu-banner">
    <sql:query dataSource="${conn}" var="category">
     SELECT * FROM wCategory;

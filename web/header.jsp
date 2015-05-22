@@ -31,9 +31,14 @@
  </head>
 
  <body>
+    <script>
+      var initBox = '<div id ="wraper_ajax" class ="loadding_ajaxcart"><i class="fa fa-spinner fa-spin"></i></div>';
+      initBox += '<div style="display:none;" class="wrapper_inboxCart"></div>';
+      jQuery('body').append(initBox);
+  </script>
   <%@include file="resource.jsp" %>
   <sql:query dataSource="${conn}" var="scategory">
-   SELECT * FROM wSubCategory;
+      SELECT * FROM wSubCategory;
   </sql:query>
   <div class="header-wrapper">
    <div class="header-quick-access">
@@ -91,28 +96,25 @@
         <ul class="links">
          <li class="first"><a href="./index.jsp/customer/account/" title="My Account">My Account</a></li>
          <li><a href="./index.jsp/wishlist/" title="My Wishlist">My Wishlist</a></li>
-         <li>
-          <!--AP_LIGHT_CACHE cart_link data="YToxOntzOjk6ImNvbnRhaW5lciI7czo0NzoiQVBfTGlnaHRjYWNoZV9Nb2RlbF9Db250YWluZXJfQ2hlY2tvdXRfQ2FydGxpbmsiO30="-->
-          <a href="./index.jsp/checkout/cart/" title="<!--CART_LINK-->My Cart<!--END_CART_LINK-->" class="top-link-cart">
-           <!--CART_LINK-->My Cart
-           <!--END_CART_LINK-->
-          </a>
-          <!--cart_link END_CACHE-->
-         </li>
-         <li><a href="./index.jsp/checkout/onepageonepage" title="Checkout" class="top-link-checkout">Checkout</a></li>
-         <c:choose>
-          <c:when test="${empty sessionScope['6c6f67696e75736572']}"
-         <li class=" last"><a href="login.jsp" title="Log In">Log In</a></li>
-         <li class="login-register">
-          <span>/</span><a href="create.jsp" title="Customer Register">Register</a>
-         </li>
-         </c:when>
-         <c:otherwise>
-          <li class=" last"><a href="login.jsp" title="Log In">My Account</a></li>
-         <li class="login-register">
-          <span>/</span><a href="create.jsp" title="Customer Register">Log Out</a>
-         </li>
-         </c:otherwise>
+          <c:choose>
+              <c:when test="${empty sessionScope['6c6f67696e75736572']}">
+              <li class="last"><a href="login.jsp" title="Log In">Log In</a></li>
+              <li class="login-register">
+               <span>/</span><a href="create.jsp" title="Customer Register">Register</a>
+              </li>
+              <c:if test="${param.islogout eq 'true'}">
+                  <script>
+                      window.onload = function () {
+                       alert('You are logout');
+                      }
+                  </script>
+              </c:if>
+          </c:when>
+          <c:otherwise>
+              <li class="last">
+               <a id="logout" href="./functions/user.jsp?action=logout" title="Customer Register">Log Out</a>
+              </li>
+          </c:otherwise>
          </c:choose>
         </ul>
        </div>
@@ -134,7 +136,7 @@
           <select name="cat" class="dd-select" style="width: 110px;text-indent: 20px;">
            <option>All</option>
            <c:forEach var="cate" items="${scategory.rows}">
-            <option>${cate.SubCategoryName}</option>
+               <option>${cate.SubCategoryName}</option>
            </c:forEach>
           </select>
           <input id="search" name="search" type="text" name="q" class="input-text" autocomplete="off" style="height: 35px">
@@ -152,7 +154,7 @@
             <div id="scart" class="block-cart">
              <!--<span class="top-cart-icon"></span>-->
              <div class="cart-mini-title">
-              <a class="shopping-cart" href="./index.jsp/checkout/cart/" rel="tooltip" data-original-title="">
+              <a class="shopping-cart" href="./mycart.jsp" rel="tooltip" data-original-title="">
                <span class="cart-title"><i class="fa fa-shopping-cart"></i></span>
                <span class="cart-count">${fn:length(sessionScope.cart)} item <span class="asc">- </span><span class="price">My Cart</span></span>
                <!--<span class="cart-qty"></span>-->
@@ -162,33 +164,33 @@
              <div class="top-cart-content">
               <!--              Xử lý chức năng giỏ hàng-->
               <c:choose>
-               <c:when test="${empty sessionScope.cart}">
-                <p class="empty">You have no items in your shopping cart.</p>
-                <div class="top-subtotal">Subtotal: <span class="price">$0.00</span></div>
-               </c:when>
-               <c:otherwise>
-                <ol id="cart-sidebar" class="mini-products-list">
-                 <c:forEach var="item" items="${sessionScope.cart}">
-                  <li class="item odd">
-                   <a href="#" class="product-image">
-                    <img src="./images/${item.image}" width="50" height="50"></a>
-                   <div class="product-details">
-                    <a id="${item.pid}" title="Remove This Item" onclick="removeCart(${item.pid})" class="btn-remove">Remove This Item</a>
-                    <a href="#" title="Edit item" class="btn-edit">Edit item</a>
-                    <p class="product-name" style="width: 150px"><a href="#">${item.name}</a></p>
-                    <strong>${item.qua}</strong> x
-                    <span class="price">$${item.price}</span>                    
-                   </div>
-                  </li>
-                  <c:set var="multiplication" value="${item.qua * item.price}" scope="page"/>
-                  <c:set var="total" value="${total + multiplication}" scope="page"/>
-                 </c:forEach>
-                </ol>
-                <div class="top-subtotal">Subtotal: <span class="price">$${total}</span></div>
-                <div class="actions">
-                 <button type="button" title="Checkout" class="button" onclick="setLocation('#')"><span><span>Checkout</span></span></button>
-                </div>
-               </c:otherwise>
+                  <c:when test="${empty sessionScope.cart}">
+                      <p class="empty">You have no items in your shopping cart.</p>
+                      <div class="top-subtotal">Subtotal: <span class="price">$0.00</span></div>
+                  </c:when>
+                  <c:otherwise>
+                      <ol id="cart-sidebar" class="mini-products-list">
+                       <c:forEach var="item" items="${sessionScope.cart}">
+                           <li class="item odd">
+                            <a href="#" class="product-image">
+                             <img src="./images/${item.image}" width="50" height="50"></a>
+                            <div class="product-details">
+                             <a id="${item.pid}" title="Remove This Item" onclick="removeCart(${item.pid})" class="btn-remove">Remove This Item</a>
+                             <a href="#" title="Edit item" class="btn-edit">Edit item</a>
+                             <p class="product-name" style="width: 150px"><a href="#">${item.name}</a></p>
+                             <strong>${item.qua}</strong> x
+                             <span class="price">$${item.price}</span>                    
+                            </div>
+                           </li> 
+                           <c:set var="multiplication" value="${item.qua * item.price}" scope="page"/>
+                           <c:set var="total" value="${total + multiplication}" scope="page"/>
+                       </c:forEach>
+                      </ol>
+                      <div class="top-subtotal">Subtotal: <span class="price">$${total}</span></div>
+                      <div class="actions">
+                       <button type="button" title="Checkout" class="button" onclick="window.location = './checkout.jsp'"><span><span>Checkout</span></span></button>
+                      </div>
+                  </c:otherwise>
               </c:choose>
              </div>
             </div>
@@ -198,25 +200,6 @@
         </div>
        </div>
       </div>
-      <script type="text/javascript">
-       function removeCart(id) {
-        if (confirm("Are you sure to remove cart item id " + id + "?"))
-        {
-         jQuery.ajax({
-          type: "GET",
-          url: "cart.jsp?action=remove&productid=" + id,
-          success: function (data) {
-           var inboxCart = jQuery('.wrapper_inboxCart');
-           var inboxLoading = jQuery('#wraper_ajax');
-           inboxLoading.hide();
-           inboxCart.html("<div class='ajaxcartReponse'><p class='info'>" + data + "</p></div>").show().delay(4000).fadeOut();
-           jQuery("#bcart").load("header.jsp #scart");
-          }
-         });
-        }
-       }
-       ;
-      </script>
       <nav class="nav-container">
        <div class="nav-mobilemenu-container visible-xs">
         <div class="navbar">
@@ -662,20 +645,20 @@
         </div>
        </div>
        <script type="text/javascript">
-        var MEGAMENU_EFFECT = 0;
-        jQuery(window).scroll(function () {
-         if (jQuery(this).scrollTop() > 200) {
-          jQuery('nav').addClass("fix-nav");
-         } else {
-          jQuery('nav').removeClass("fix-nav");
-         }
-        });
+           var MEGAMENU_EFFECT = 0;
+           jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() > 200) {
+             jQuery('nav').addClass("fix-nav");
+            } else {
+             jQuery('nav').removeClass("fix-nav");
+            }
+           });
        </script>
       </nav>
      </div>
     </div>
    </div>
   </div>
+  <%@include file="script.jsp" %>
  </body>
-
 </html>

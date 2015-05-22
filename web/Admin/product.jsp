@@ -59,7 +59,7 @@
    </div>
    <c:choose>
     <c:when test="${param.action eq 'add'}">
-     <form action="../sql/db.jsp" method="post">
+     <form action="../functions/db.jsp" method="post">
       <p class="right-align">
        <button class="btn" type="submit">Lưu</button>
        <a class="btn" href="product.jsp">Hủy</a>
@@ -259,7 +259,7 @@
       }
       </c:if>
      </script>
-     <form id="myform" action="../sql/db.jsp?action=remove" method="POST">
+     <form id="myform" action="../functions/db.jsp?action=remove" method="POST">
       <!-- Products -->
       <div class="card">
        <div class="title">

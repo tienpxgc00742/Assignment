@@ -11,7 +11,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<sql:setDataSource var="conn" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" url="jdbc:sqlserver://127.0.0.1:1433;databaseName=WSHOP" user="sa" password="123456"/>
+<%@include file="resource.jsp" %>
 <c:if test="${not empty param.productid}">
  <sql:query dataSource="${conn}" var="product">
   SELECT * FROM wProduct WHERE ProductID = ?;
@@ -30,11 +30,9 @@
   <c:choose>
    <c:when test="${empty sessionScope.cart}">
     <%
-     System.out.println("START");
      ArrayList<CartItem> cart = new ArrayList<CartItem>();
      cart.add(new CartItem(pid, name, 1, price,image));
      session.setAttribute("cart", cart);
-     System.out.println("END");
     %>
     Item was added to your cart
    </c:when>
