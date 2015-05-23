@@ -12,88 +12,12 @@
   <meta name="keywords" content="Magento, Varien, E-commerce">
   <meta name="robots" content="INDEX,FOLLOW">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="./Assets/css/font.css">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/base/default/css/widgets.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/ajaxcart/css/ajaxcart.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/blog/css/blog.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/megamenu/css/megamenu.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/megamenu/css/vmegamenu.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/themevast/css/cltool.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/cloudzoom/css/cloudzoom.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/css/print.css" media="print">
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/prototype/prototype.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/lib/ccard.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/prototype/validation.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/scriptaculous/builder.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/scriptaculous/effects.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/scriptaculous/dragdrop.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/scriptaculous/controls.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/scriptaculous/slider.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/varien/js.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/varien/form.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/varien/menu.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/mage/translate.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/mage/cookies.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/jquery.min.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/noconflict.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/plugin/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/bootstrap/bootstrap.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/bootstrap/bootstrap-tooltip.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/themevast.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/ajaxcart.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/plugin/jquery.bxslider.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/plugin/jquery.ddslick.min.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/megamenu.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/quickview.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/timer.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/varien/product.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/varien/configurable.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/calendar/calendar.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/calendar/calendar-setup.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/plugin/cloud-zoom.1.0.3.js"></script>
-  <script type="text/javascript" src="http://themevast.com/demo/tv_bigboom/js/themevast/plugin/lightbox.js"></script>
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/css/mobileresponsive.css" media="all">
   <style>
    .add-to-box .fa {
     margin-top: 10px;
    }
   </style>
-  <script type="text/javascript">
-   //<![CDATA[
-   Mage.Cookies.path = '/demo/tv_bigboom';
-   Mage.Cookies.domain = '.themevast.com';
-   //]]>
-  </script>
-  <script type="text/javascript">
-   //<![CDATA[
-   optionalZipCountries = ["HK", "IE", "MO", "PA"];
-   //]]>
-  </script>
-  <script type="text/javascript">
-   function initLightbox() {
-    new Lightbox({
-     fileLoadingImage: 'http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/cloudzoom/images/loading.gif',
-     fileBottomNavCloseImage: 'http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/cloudzoom/images/closelabel.gif',
-     overlayOpacity: 0.8, // controls transparency of shadow overlay
-     animate: true, // toggles resizing animations
-     resizeSpeed: 7, // controls the speed of the image resizing animations (1=slowest and 10=fastest)
-     borderSize: 10,
-     // When grouping images this is used to write: Image # of #.
-     // Change it for non-english localization
-     labelImage: "Image",
-     labelOf: "of"
-    });
-   }
-   if (Prototype.Browser.IE) {
-    Event.observe(window, 'load', function () { //KB927917 fix
-     initLightbox();
-    });
-   } else {
-    document.observe("dom:loaded", function () {
-     initLightbox();
-    });
-   }
-  </script>
   <c:if test="${empty param.mode}">
   <body class=" catalog-product-view catalog-product-view product-quisque-in-arcu" data-twttr-rendered="true">
    <iframe id="twttrHubFrameSecure" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" name="twttrHubFrameSecure" src="https://platform.twitter.com/widgets/hub.f15fe2cd70788a40560e69fa17341d5e.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;"></iframe>
@@ -154,11 +78,6 @@
                  </div>
                 </div>
                </div>
-               <script type="text/javascript">
-                //<![CDATA[
-                var MEGAMENU_EFFECT = 0;
-                //]]>
-               </script>
               </div>
               <div class="relatedslider">
                <div class="bx-title related-title">
@@ -330,63 +249,6 @@
                 </div>
                </div>
               </div>
-              <script type="text/javascript">
-               decorateList('block-related', 'none-recursive')
-              </script>
-              <script type="text/javascript">
-               //<![CDATA[
-               $$('.related-checkbox').each(function (elem) {
-                Event.observe(elem, 'click', addRelatedToProduct)
-               });
-               var relatedProductsCheckFlag = false;
-
-               function selectAllRelated(txt) {
-                if (relatedProductsCheckFlag == false) {
-                 $$('.related-checkbox').each(function (elem) {
-                  elem.checked = true;
-                 });
-                 relatedProductsCheckFlag = true;
-                 txt.innerHTML = "unselect all";
-                } else {
-                 $$('.related-checkbox').each(function (elem) {
-                  elem.checked = false;
-                 });
-                 relatedProductsCheckFlag = false;
-                 txt.innerHTML = "select all";
-                }
-                addRelatedToProduct();
-               }
-
-               function addRelatedToProduct() {
-                var checkboxes = $$('.related-checkbox');
-                var values = [];
-                for (var i = 0; i < checkboxes.length; i++) {
-                 if (checkboxes[i].checked)
-                  values.push(checkboxes[i].value);
-                }
-                if ($('related-products-field')) {
-                 $('related-products-field').value = values.join(',');
-                }
-               }
-               jQuery(document).ready(function ($) {
-                (function (selector) {
-                 var $content = $(selector);
-                 var $slider = $('.products-grid', $content);
-                 var slider = $slider.bxSlider({
-                  auto: 0,
-                  speed: 600,
-                  controls: 1,
-                  pager: 0,
-                  maxSlides: 1,
-                  slideWidth: 270, //infiniteLoop: false,
-                  moveSlides: 1,
-                  slideMargin: 0,
-                  autoHover: true, // stop while hover <=> slider.stopAuto(); + slider.startAuto();
-                 })
-                })(".relatedslider");
-               });
-               //]]>
-              </script>
               <div class="block block-list block-compare">
                <div class="block-title">
                 <strong><span>Compare Products                    </span></strong>
@@ -411,27 +273,6 @@
                 </li>
                </ul>
               </div>
-              <script type="text/javascript">
-               jQuery(document).ready(function ($) {
-                $('.control').click(function () {
-                 if ($(this).hasClass('inactive')) {
-                  $(this).removeClass('inactive');
-                  $(this).addClass('active');
-                  $('.themes-demo-wrap').animate({
-                   left: '0'
-                  }, 500);
-                 } else {
-                  $(this).addClass('inactive');
-                  $('.themes-demo-wrap').animate({
-                   left: '-260px'
-                  }, 500);
-                 }
-                });
-               });
-              </script>
-              <script type="text/javascript">
-               var optionsPrice = new Product.OptionsPrice([]);
-              </script>
               <div id="messages_product_view"></div>
               <div class="product-view">
                <div class="product-essential">
@@ -557,53 +398,6 @@
                   <input type="hidden" name="related_product" id="related-products-field" value="">
                  </div>
                 </form>
-                <script type="text/javascript">
-                 //<![CDATA[
-                 var productAddToCartForm = new VarienForm('product_addtocart_form');
-                 productAddToCartForm.submit = function (button, url) {
-                  if (this.validator.validate()) {
-                   var form = this.form;
-                   var oldUrl = form.action;
-                   if (url) {
-                    form.action = url;
-                   }
-                   var e = null;
-                   try {
-                    this.form.submit();
-                   } catch (e) {
-                   }
-                   this.form.action = oldUrl;
-                   if (e) {
-                    throw e;
-                   }
-                   if (button && button != 'undefined') {
-                    button.disabled = true;
-                   }
-                  }
-                 }.bind(productAddToCartForm);
-                 productAddToCartForm.submitLight = function (button, url) {
-                  if (this.validator) {
-                   var nv = Validation.methods;
-                   delete Validation.methods['required-entry'];
-                   delete Validation.methods['validate-one-required'];
-                   delete Validation.methods['validate-one-required-by-name'];
-                   // Remove custom datetime validators
-                   for (var methodName in Validation.methods) {
-                    if (methodName.match(/^validate-datetime-.*/i)) {
-                     delete Validation.methods[methodName];
-                    }
-                   }
-                   if (this.validator.validate()) {
-                    if (url) {
-                     this.form.action = url;
-                    }
-                    this.form.submit();
-                   }
-                   Object.extend(Validation.methods, nv);
-                  }
-                 }.bind(productAddToCartForm);
-                 //]]>
-                </script>
                </div>
                <div class="product-collateral row-fluid">
                 <ul class="product-tabs">
@@ -1587,29 +1381,16 @@
   <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
   <script type="text/javascript" src="//s7.addthis.com/static//lang/vi.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Dummy Product #03</title>
-  <meta name="description" content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id n">
-  <meta name="keywords" content="Magento, Varien, E-commerce">
-  <meta name="robots" content="INDEX,FOLLOW">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link rel="icon" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/favicon.ico" type="image/x-icon">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,700,500,600" rel="stylesheet" type="text/css">
-  <!--[if lt IE 7]>
-<script type="text/javascript">
-//<![CDATA[
-var BLANK_URL = 'http://themevast.com/demo/tv_bigboom/js/blank.html';
-var BLANK_IMG = 'http://themevast.com/demo/tv_bigboom/js/spacer.gif';
-//]]>
-</script>
-<![endif]-->
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/js/calendar/calendar-win2k-1.css">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/plugin/css/jquery.fancybox.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/themevast/plugin/css/jquery.bxslider.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/bootstrap/bootstrap.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/bootstrap/bootstrap-theme.css" media="all">
-  <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/css/font-awesome.css" media="all">
+  <link rel="stylesheet" type="text/css" href="Assets/css/font-awesome.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/css/animate.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/tv_bigboom_package/tv_bigboom1/css/styles.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://themevast.com/demo/tv_bigboom/skin/frontend/base/default/css/widgets.css" media="all">
@@ -1655,32 +1436,6 @@ var BLANK_IMG = 'http://themevast.com/demo/tv_bigboom/js/spacer.gif';
 
   <body class="page-empty  quickview-index-ajax catalog-product-view product-proin-lectus-ipsum" data-twttr-rendered="true" style="overflow-x: hidden;height: 580px">
    <div>
-    <div class="themes-demo-wrap">
-     <div class="theme-demo-option">
-      <h2 class="themes-demo-title">Theme Color</h2>
-      <div class="cl-table">
-       <div class="title-home title-home1">Layout 1</div>
-       <div class="cl-tr">
-        <div class="cl-td cl-td-layout1"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=en" title="Red"><span></span>Red</a></div>
-        <div class="cl-td cl-td-layout2"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=fr" title="Orange"><span></span>Orange</a></div>
-        <div class="cl-td cl-td-layout3"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=ge" title="Green"><span></span>Green</a></div>
-       </div>
-       <div class="title-home title-home2">Layout 2</div>
-       <div class="cl-tr">
-        <div class="cl-td cl-td-layout1"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=br" title="Red"><span></span>Red</a></div>
-        <div class="cl-td cl-td-layout2"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=it" title="Orange"><span></span>Orange</a></div>
-        <div class="cl-td cl-td-layout3"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=rs" title="Green"><span></span>Green</a></div>
-       </div>
-       <div class="title-home title-home3">Layout 3</div>
-       <div class="cl-tr">
-        <div class="cl-td cl-td-layout1"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=pt" title="Red"><span></span>Red</a></div>
-        <div class="cl-td cl-td-layout2"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=es" title="Orange"><span></span>Orange</a></div>
-        <div class="cl-td cl-td-layout3"><a href="http://themevast.com/demo/tv_bigboom/index.php/?___store=sw" title="Green"><span></span>Green</a></div>
-       </div>
-      </div>
-      <div class="control inactive"><a href="javascript:void(0)"><i class="fa fa-cog fa-spin"></i></a></div>
-     </div>
-    </div>
     <div id="messages_product_view"></div>
     <div class="product-view">
      <div class="product-essential">
@@ -1690,17 +1445,16 @@ var BLANK_IMG = 'http://themevast.com/demo/tv_bigboom/js/spacer.gif';
         <div style="width:50%" class="product-img-box col-sm-12 col-md-5 col-sms-6 col-smb-12">
          <div id="wrap" style="top:0px;z-index:9;position:relative;">
           <a href="./images/${imageitem[0]}" class="cloud-zoom" style="  margin: 10px 10px 0;border: 1px solid #eee;padding: 5px;" id="cloudzoom" style="position: relative; display: block;" rel="adjustX:10, adjustY:-2, zoomWidth:400, zoomHeight:400">
-           <img src="./images/${imageitem[0]}" style="display: block; width: 438;height: 438"> </a>
+           <img src="./images/${imageitem[0]}" style="display: block; width: 438px;height: 438px"> </a>
           <div class="mousetrap" style="width: 491px; height: 491px; top: 0px; left: 0px; position: absolute; z-index: 9999; cursor: move; background-image: url(http://themevast.com/demo/tv_bigboom/js/themevast/plugin/blank.png);"></div>
          </div>
-         </p>
          <div class="more-views thumbnail-container horizontal">
           <h2>More Views</h2>
           <ul class="bxslider" style="margin-left: 10px;">
            <c:forEach var="i" begin="0" end="${fn:length(imageitem)-1}">
             <li class="thumbnail-item">
              <a href="./images/${imageitem[i]}" class="cloud-zoom-gallery" title="" name="./images/${imageitem[i]}" rel="useZoom: 'cloudzoom', smallImage: './images/${imageitem[i]}'">
-              <img src="./images/${imageitem[i]}" alt="" style="width: 78;height: 78"></a>
+              <img src="./images/${imageitem[i]}" alt="" style="width: 78px;height: 78px"></a>
             </li>
            </c:forEach>
           </ul>

@@ -30,7 +30,7 @@
   <description>Location to store uploaded file</description>
   <param-name>file-path</param-name>
   <param-value>
-   C:\Users\Administrator\Documents\NetBeansProjects\SP_PJ\web\images
+   C:\Users\Administrator\Documents\NetBeansProjects\servjsp\web\images
   </param-value>
  </context-param>
  <security-constraint>
@@ -54,6 +54,6 @@
 </security-role>
  <login-config>
   <auth-method>BASIC</auth-method>
-  <realm-name>AppName Beta Release</realm-name>
+  <realm-name>Admin Area Security Based Authentication</realm-name>
  </login-config>
 </web-app>

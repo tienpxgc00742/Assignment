@@ -524,6 +524,29 @@
     </div>
    </div>
   </main>
+  <script type="text/javascript">
+        jQuery('.btn-cart').click(function () {
+             var href = "./functions/cart.jsp?productid=" + jQuery(this).val();
+             jQuery.ajax({
+                  type: "GET",
+                  url: href,
+                  beforeSend: function () {
+                       var wraperLoading = jQuery('#wraper_ajax');
+                       wraperLoading.show();
+                       wraperLoading.click(function () {
+                            wraperLoading.hide();
+                       });
+                  },
+                  success: function (data) {
+                       var inboxCart = jQuery('.wrapper_inboxCart');
+                       var inboxLoading = jQuery('#wraper_ajax');
+                       inboxLoading.hide();
+                       inboxCart.html("<div class='ajaxcartReponse'><p class='info'>" + data + "</p></div>").show().delay(4000).fadeOut();
+                       jQuery("#bcart").load("header.jsp #scart");
+                  }
+             });
+        });
+    </script>
   <%@include file="footer.jsp" %>
  </body>
 </html>

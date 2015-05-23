@@ -11,7 +11,7 @@
 <c:if test="${param.action eq 'register' && not empty param.username && not empty param.password && not empty param.name}">
     <c:catch var ="catchException">
         <sql:update dataSource="${conn}" var="insert">
-            Insert into wAccount values (?,?,?,GETDATE(),'image-1.png')
+            Insert into wAccount values (?,?,?,GETDATE(),'default.png')
             <sql:param value="${param.username}"/>
             <sql:param value="${param.password}"/>
             <sql:param value="${param.name}"/>
@@ -58,6 +58,7 @@
 </c:if>
 <c:if test="${param.action eq 'logout' && not empty sessionScope['6c6f67696e75736572']}">
     <c:remove var="6c6f67696e75736572" scope="session"/>
+    <c:remove var="cart" scope="session"/>
     <c:redirect url="../index.jsp" >
         <c:param name="islogout" value="true" />
     </c:redirect>

@@ -31,7 +31,7 @@
  </head>
 
  <body>
-    <script>
+  <script>
       var initBox = '<div id ="wraper_ajax" class ="loadding_ajaxcart"><i class="fa fa-spinner fa-spin"></i></div>';
       initBox += '<div style="display:none;" class="wrapper_inboxCart"></div>';
       jQuery('body').append(initBox);
@@ -94,8 +94,7 @@
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
        <div class="header-toplinks">
         <ul class="links">
-         <li class="first"><a href="./index.jsp/customer/account/" title="My Account">My Account</a></li>
-         <li><a href="./index.jsp/wishlist/" title="My Wishlist">My Wishlist</a></li>
+         <li class="first"><a href="./account.jsp" title="My Account">My Account</a></li>
           <c:choose>
               <c:when test="${empty sessionScope['6c6f67696e75736572']}">
               <li class="last"><a href="login.jsp" title="Log In">Log In</a></li>
@@ -105,7 +104,7 @@
               <c:if test="${param.islogout eq 'true'}">
                   <script>
                       window.onload = function () {
-                       alert('You are logout');
+                           alert('You are logout');
                       }
                   </script>
               </c:if>
@@ -176,7 +175,7 @@
                              <img src="./images/${item.image}" width="50" height="50"></a>
                             <div class="product-details">
                              <a id="${item.pid}" title="Remove This Item" onclick="removeCart(${item.pid})" class="btn-remove">Remove This Item</a>
-                             <a href="#" title="Edit item" class="btn-edit">Edit item</a>
+                             <a href="./mycart.jsp" title="Edit item" class="btn-edit">Edit item</a>
                              <p class="product-name" style="width: 150px"><a href="#">${item.name}</a></p>
                              <strong>${item.qua}</strong> x
                              <span class="price">$${item.price}</span>                    
@@ -553,15 +552,6 @@
        <div id="nav_megamenu" class="nav_megamenu visible-lg visible-md">
         <div id="megamenu_home" class="megamenu act">
          <div class="level-top"><a href="index.jsp"><span>Home</span></a></div>
-         <div class="dropdown" style="left: 268px; width: 260px;">
-          <div class="block1" style="width: 260px;">
-           <div class="column col1">
-            <div class="itemSubMenu level1">
-             <div class="itemMenu level2"><a class="itemMenuName level2" href="./Home page_files/Home page.html"><span>Home1</span></a><a class="itemMenuName level2" href="./index.jsp/?___store=br"><span>Home2</span></a><a class="itemMenuName level2" href="./index.jsp/?___store=pt"><span>Home3</span></a></div>
-            </div>
-           </div>
-          </div>
-         </div>
         </div>
         <div class="megamenu nav_product nav_newproduct">
          <div class="level-top"><a href="index.jsp"><span>Shop</span><i class="fa fa-angle-down"></i></a><span class="new">New</span></div>
@@ -629,31 +619,38 @@
                <div class="menu-custom-des">Document Guide</div>
               </div>
              </div>
+             <div class="col-xs-6" style="width: 360px">
+               <div class="menu-col menu-col1">
+                <div class="menu-custom-img">&nbsp;<em class="fa fa-desktop"></em></div>
+                <h3>Responsive Design</h3>
+                <div class="menu-custom-des">Quick Cart</div>
+               </div>
+              </div>
+             </div>
             </div>
            </div>
           </div>
          </div>
-        </div>
-        <div class="megamenu nav_product nav_saleproduct">
-         <div class="level-top"><a href="./index.jsp/saleproduct/"><span>clearance</span><i class="fa fa-angle-down"></i></a><span class="hot">Hot</span></div>
+         <div class="megamenu nav_product nav_saleproduct">
+          <div class="level-top"><a href="./index.jsp"><span>clearance</span><i class="fa fa-angle-down"></i></a><span class="hot">Hot</span></div>
 
-        </div>
-        <div id="megamenu_link" class="megamenu">
-         <div class="level-top">
-          <p><a href="./index.jsp/about-magento-demo-store">About</a><a href="./index.jsp/contacts">Contact Us</a><a href="./index.jsp/blog">Blog</a></p>
+         </div>
+         <div id="megamenu_link" class="megamenu">
+          <div class="level-top">
+           <p><a href="../">About</a><a href="./index.jsp">Contact Us</a></p>
+          </div>
          </div>
         </div>
-       </div>
-       <script type="text/javascript">
-           var MEGAMENU_EFFECT = 0;
-           jQuery(window).scroll(function () {
-            if (jQuery(this).scrollTop() > 200) {
-             jQuery('nav').addClass("fix-nav");
-            } else {
-             jQuery('nav').removeClass("fix-nav");
-            }
-           });
-       </script>
+        <script type="text/javascript">
+            var MEGAMENU_EFFECT = 0;
+            jQuery(window).scroll(function () {
+                 if (jQuery(this).scrollTop() > 200) {
+                      jQuery('nav').addClass("fix-nav");
+                 } else {
+                      jQuery('nav').removeClass("fix-nav");
+                 }
+            });
+        </script>
       </nav>
      </div>
     </div>
