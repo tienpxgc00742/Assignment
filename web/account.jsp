@@ -92,20 +92,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                  <div class="col-main">
-                  <script type="text/javascript">
-                      jQuery(document).ready(function ($) {
-                           $('.control').click(function () {
-                                if ($(this).hasClass('inactive')) {
-                                     $(this).removeClass('inactive');
-                                     $(this).addClass('active');
-                                     $('.themes-demo-wrap').animate({left: '0'}, 500);
-                                } else {
-                                     $(this).addClass('inactive');
-                                     $('.themes-demo-wrap').animate({left: '-260px'}, 500);
-                                }
-                           });
-                      });
-                  </script><div class="my-account"><div class="dashboard">
+                  <div class="my-account"><div class="dashboard">
                     <div class="page-title">
                      <h1>My Dashboard</h1>
                     </div>

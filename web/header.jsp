@@ -127,7 +127,8 @@
      <div class="page-header-content">
       <div class="row">
        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-        <a href="./index.jsp/" title="Magento Commerce" class="logo"><strong>Magento Commerce</strong><img src="./skin/frontend/tv_bigboom_package/tv_bigboom1/images/logo.png" alt="Magento Commerce"></a>
+        <a href="./index.jsp/" class="logo"><strong>Magento Commerce</strong>
+         <img src="http://nixiagamer.com/wp-content/uploads/2014/06/MSI-Gaming-Logo-component.png" style="width: 350px;height: 80px;margin-top: -20px"></a>
        </div>
        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
         <form id="search_mini_form" action="productlist.jsp" method="get">

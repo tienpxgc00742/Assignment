@@ -8,7 +8,7 @@
 <html>
     <head>
         <link href="./css/css" rel="stylesheet" type="text/css">
-        <link rel="icon" type="image/png" href="http://html.nkdev.info/_con/assets/_con/images/icon.png">
+        <link rel="icon" type="image/png" href="./assets/_con/images/icon.png">
         <link rel="stylesheet" type="text/css" href="./css/nanoscroller.css">
         <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="./css/material-design-icons.min.css">
@@ -41,26 +41,26 @@
     <nav class="navbar-top">
         <div class="nav-wrapper">
             <!-- Logo -->
-            <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="brand-logo">
-                <img src="http://html.nkdev.info/_con/assets/_con/images/logo.png" alt="Con">
+            <a href="./dashboard.jsp#!" class="brand-logo">
+             <img src="../Assets/images/paypal.png" alt="Con">
             </a>
             <!-- /Logo -->
             <!-- Menu -->
             <ul>
-                <li><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="search-bar-toggle"><i class="mdi-action-search"></i></a>
+                <li><a href="./dashboard.jsp#!" class="search-bar-toggle"><i class="mdi-action-search"></i></a>
                 </li>
                 <li class="user">
-                    <a class="dropdown-button" href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" data-activates="user-dropdown">
+                    <a class="dropdown-button" href="./dashboard.jsp#!" data-activates="user-dropdown">
                         <img src="../images/image-1.png" alt="John Doe" class="circle">Admin<i class="mdi-navigation-expand-more right"></i>
                     </a><ul id="user-dropdown" class="dropdown-content">
-                        <li><a href="http://html.nkdev.info/_con/page-profile.html"><i class="fa fa-user"></i> Profile</a>
+                        <li><a href="./page-profile.html"><i class="fa fa-user"></i> Profile</a>
                         </li>
-                        <li><a href="http://html.nkdev.info/_con/mail-inbox.html"><i class="fa fa-envelope"></i> Messages <span class="badge new">2</span></a>
+                        <li><a href="./mail-inbox.html"><i class="fa fa-envelope"></i> Messages <span class="badge new">2</span></a>
                         </li>
-                        <li><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!"><i class="fa fa-cogs"></i> Categories</a>
+                        <li><a href="./dashboard.jsp#!"><i class="fa fa-cogs"></i> Categories</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="http://html.nkdev.info/_con/page-sign-in.html"><i class="fa fa-sign-out"></i> Logout</a>
+                        <li><a href="./page-sign-in.html"><i class="fa fa-sign-out"></i> Logout</a>
                         </li>
                     </ul>
                 </li>

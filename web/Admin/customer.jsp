@@ -27,15 +27,15 @@
         <!--h1>@@title</h1-->
         <nav>
          <ul class="left">
-          <li><a href="ecommerce-dashboard.html">Dashboard</a>
+          <li><a href="dashboard.jsp">Dashboard</a>
           </li>
-          <li><a href="ecommerce-products.html">Products</a>
+          <li><a href="product.jsp">Products</a>
           </li>
-          <li><a href="ecommerce-orders.html">Orders</a>
+          <li><a href="order.jsp">Orders</a>
           </li>
-          <li class="active"><a href="ecommerce-customers.html">Customers</a>
+          <li class="active"><a href="customer.jsp">Customers</a>
           </li>
-          <li><a href="ecommerce-settings.html">Categories</a>
+          <li><a href="categories.jsp">Categories</a>
           </li>
          </ul>
         </nav>
@@ -51,7 +51,7 @@
        <div class="col s6 m3 l2">
         <div class="card image-card">
          <div class="image">
-          <img src="../images/${a.Avatar}" alt="" style="width: 237px;height: 230px;  max-width: 100%;">
+          <img src="../images/${a.Avatar}" alt="" style="width: 237px;height: 190px;  max-width: 100%;">
           <a href="customer.jsp?username=${a.user}" class="link"></a>
          </div>
          <div class="content">
@@ -145,44 +145,17 @@
          </a>
         </div>
         <div class="content">
-         Phasellus viverra, lectus quis iaculis gravida, nisl felis cursus dui, id rutrum nibh quam nec ante. In ullamcorper ipsum nec tincidunt convallis. Fusce rhoncus, nisl nec ornare laoreet, ligula eros volutpat odio, sit amet ultricies ex nulla quis dolor.
-         Sed consectetur, elit non ultricies viverra, orci ex feugiat felis, quis suscipit enim metus id ante. Aenean urna elit, laoreet accumsan pharetra et, lobortis nec odio. Ut faucibus, neque at posuere fermentum, ipsum enim lacinia augue, nec
-         malesuada velit orci sed enim. Vivamus porttitor lacus eget arcu dapibus semper. Proin nec pretium nunc, vitae interdum tortor.
+         
         </div>
        </div>
        <!-- /About -->
       </div>
-      <div class="col s12 l3">
-       <!-- Statistics -->
-       <div class="card profile-skills">
-        <div class="title">
-         <h5><i class="fa fa-bar-chart"></i> Statistics</h5>
-         <a class="close" href="#">
-          <i class="mdi-content-clear"></i>
-         </a>
-         <a class="minimize" href="#">
-          <i class="mdi-navigation-expand-less"></i>
-         </a>
-        </div>
-        <div class="content">
-         <div class="row center-align" style="margin-top: 0">
-          <div class="col m6 s12">
-           <strong>87</strong>
-           <h5>Following</h5>
-          </div>
-          <div class="col m6 s12">
-           <strong>12</strong>
-           <h5>Followers</h5>
-          </div>
-         </div>
-        </div>
-       </div>
-       <!-- /Statistics -->
+      <div class="col s12 l3" style="margin-top: -12px;">
        <p></p>
        <!-- Skills -->
        <div class="card profile-skills">
         <div class="title">
-         <h5><i class="fa fa-trophy"></i> Skills</h5>
+         <h5><i class="fa fa-android"></i> Tools</h5>
          <a class="close" href="#">
           <i class="mdi-content-clear"></i>
          </a>
@@ -191,40 +164,11 @@
          </a>
         </div>
         <div class="content">
-         <a href="#!" class="skill">JavaScript</a>
-         <a href="#!" class="skill">CSS3</a>
-         <a href="#!" class="skill">HTML5</a>
-         <a href="#!" class="skill">jQuery</a>
-         <a href="#!" class="skill">AngularJS</a>
-         <a href="#!" class="skill">Bootstrap</a>
-         <a href="#!" class="skill">PHP</a>
-         <a href="#!" class="skill">MySQL</a>
+         <a href="#!" class="skill red">Remove</a>
         </div>
        </div>
        <!-- /Skills -->
        <p></p>
-       <!-- Send Message -->
-       <div class="card">
-        <div class="title">
-         <h5><i class="fa fa-user"></i> Send Message</h5>
-         <a class="close" href="#">
-          <i class="mdi-content-clear"></i>
-         </a>
-         <a class="minimize" href="#">
-          <i class="mdi-navigation-expand-less"></i>
-         </a>
-        </div>
-        <div class="content">
-         <form action="#!">
-          <div class="input-field">
-           <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-           <label for="textarea1">Send me message</label>
-          </div>
-          <button class="btn">Send</button>
-         </form>
-        </div>
-       </div>
-       <!-- /Send Message -->
       </div>
      </div>
     </section>

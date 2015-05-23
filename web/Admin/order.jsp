@@ -31,15 +31,15 @@
                   <!--h1>@@title</h1-->
                   <nav>
                    <ul class="left">
-                    <li><a href="ecommerce-dashboard.html">Dashboard</a>
+                    <li><a href="dashboard.jsp">Dashboard</a>
                     </li>
-                    <li><a href="ecommerce-products.html">Products</a>
+                    <li><a href="product.jsp">Products</a>
                     </li>
-                    <li class="active"><a href="ecommerce-orders.html">Orders</a>
+                    <li class="active"><a href="order.jsp">Orders</a>
                     </li>
-                    <li><a href="ecommerce-customers.html">Customers</a>
+                    <li><a href="customer.jsp">Customers</a>
                     </li>
-                    <li><a href="ecommerce-settings.html">Settings</a>
+                    <li><a href="categories.jsp">Settings</a>
                     </li>
                    </ul>
                   </nav>
@@ -281,15 +281,15 @@
               <!--h1>@@title</h1-->
               <nav>
                <ul class="left">
-                <li><a href="ecommerce-dashboard.html">Dashboard</a>
+                <li><a href="dashboard.jsp">Dashboard</a>
                 </li>
-                <li><a href="ecommerce-products.html">Products</a>
+                <li><a href="product.jsp">Products</a>
                 </li>
-                <li class="active"><a href="ecommerce-orders.html">Orders</a>
+                <li class="active"><a href="order.jsp">Orders</a>
                 </li>
-                <li><a href="ecommerce-customers.html">Customers</a>
+                <li><a href="customer.jsp">Customers</a>
                 </li>
-                <li><a href="ecommerce-settings.html">Settings</a>
+                <li><a href="categories.jsp">Settings</a>
                 </li>
                </ul>
               </nav>

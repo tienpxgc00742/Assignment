@@ -25,22 +25,22 @@
                         <!--h1>@@title</h1-->
                         <nav>
                             <ul class="left">
-                                <li class="active"><a href="./Con - Admin Dashboard with Material Design_files/Con - Admin Dashboard with Material Design.html">Dashboard</a>
+                                <li class="active"><a href="./dashboard.jsp">Dashboard</a>
                                 </li>
-                                <li><a href="http://html.nkdev.info/_con/ecommerce-products.html">Products</a>
+                                <li><a href="./product.jsp">Products</a>
                                 </li>
-                                <li><a href="http://html.nkdev.info/_con/ecommerce-orders.html">Orders</a>
+                                <li><a href="./order.jsp">Orders</a>
                                 </li>
-                                <li><a href="http://html.nkdev.info/_con/ecommerce-customers.html">Customers</a>
+                                <li><a href="./customer.jsp">Customers</a>
                                 </li>
-                                <li><a href="http://html.nkdev.info/_con/ecommerce-settings.html">Categories</a>
+                                <li><a href="./categories.jsp">Categories</a>
                                 </li>
                             </ul>
                         </nav>
 
                     </div>
                     <div class="col s12 m3 l2 right-align">
-                        <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="btn grey lighten-3 grey-text z-depth-0 chat-toggle"><i class="fa fa-comments"></i></a>
+                        <a href="./dashboard.jsp#!" class="btn grey lighten-3 grey-text z-depth-0 chat-toggle"><i class="fa fa-comments"></i></a>
                     </div>
                 </div>
 
@@ -53,28 +53,28 @@
                 <div class="col l3 m6 s12">
                     <div class="card-panel stats-card purple lighten-2 white-text">
                         <i class="fa fa-line-chart"></i>
-                        <span class="count">38</span>
+                        <span class="count">1</span>
                         <div class="name">Sales Today</div>
                     </div>
                 </div>
                 <div class="col l3 m6 s12">
                     <div class="card-panel stats-card indigo lighten-2 white-text">
                         <i class="fa fa-money"></i>
-                        <span class="count">$13,547</span>
+                        <span class="count">$0,000</span>
                         <div class="name">Earnings Today</div>
                     </div>
                 </div>
                 <div class="col l3 m6 s12">
                     <div class="card-panel stats-card teal lighten-2 white-text">
                         <i class="fa fa-trophy"></i>
-                        <span class="count">25,345</span>
+                        <span class="count">$0,000</span>
                         <div class="name">Total Sales</div>
                     </div>
                 </div>
                 <div class="col l3 m6 s12">
                     <div class="card-panel stats-card red lighten-2 white-text">
                         <i class="fa fa-bar-chart"></i>
-                        <span class="count">$1,346,342</span>
+                        <span class="count">$0,000,0</span>
                         <div class="name">Total Earnings</div>
                     </div>
                 </div>
@@ -88,10 +88,10 @@
                     <div class="card-panel">
                         <div class="col s12 l9">
                             <h5>Year Revenue</h5>
-                            <div id="revenueLineChart" style="height: 250px; padding: 0px; position: relative; margin-top: 25px;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1175px; height: 250px;" width="1175" height="250"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 19px; text-align: center;">Jan</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 122px; text-align: center;">Feb</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 225px; text-align: center;">Mar</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 329px; text-align: center;">Apr</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 431px; text-align: center;">May</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 536px; text-align: center;">Jun</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 641px; text-align: center;">Jul</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 742px; text-align: center;">Aug</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 846px; text-align: center;">Sep</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 951px; text-align: center;">Oct</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 1053px; text-align: center;">Nov</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 1157px; text-align: center;">Dec</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; top: 227px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">400</div><div style="position: absolute; top: 207px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">500</div><div style="position: absolute; top: 186px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">600</div><div style="position: absolute; top: 166px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">700</div><div style="position: absolute; top: 145px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">800</div><div style="position: absolute; top: 125px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">900</div><div style="position: absolute; top: 104px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1000</div><div style="position: absolute; top: 84px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1100</div><div style="position: absolute; top: 63px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1200</div><div style="position: absolute; top: 43px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1300</div><div style="position: absolute; top: 22px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1400</div><div style="position: absolute; top: 2px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1500</div></div></div><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1175px; height: 250px;" width="1175" height="250"></canvas><div class="legend"><table style="position: absolute; top: 13px; right: 15px; font-size: smaller; color: rgb(84, 84, 84); margin-top: -35px; width: auto;"><tbody><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(171,71,188);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#" onclick="togglePlot(0);
-                                    return false;" style="color: inherit">Phones</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(92,107,192);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#" onclick="togglePlot(1);
-                                            return false;" style="color: inherit">Tablets</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(38,166,154);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#" onclick="togglePlot(2);
-                                                    return false;" style="color: inherit">Watches</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(239,83,80);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#" onclick="togglePlot(3);
+                            <div id="revenueLineChart" style="height: 250px; padding: 0px; position: relative; margin-top: 25px;"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1175px; height: 250px;" width="1175" height="250"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 19px; text-align: center;">Jan</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 122px; text-align: center;">Feb</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 225px; text-align: center;">Mar</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 329px; text-align: center;">Apr</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 431px; text-align: center;">May</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 536px; text-align: center;">Jun</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 641px; text-align: center;">Jul</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 742px; text-align: center;">Aug</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 846px; text-align: center;">Sep</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 951px; text-align: center;">Oct</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 1053px; text-align: center;">Nov</div><div style="position: absolute; max-width: 97px; top: 238px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 1157px; text-align: center;">Dec</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; top: 227px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">400</div><div style="position: absolute; top: 207px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">500</div><div style="position: absolute; top: 186px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">600</div><div style="position: absolute; top: 166px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">700</div><div style="position: absolute; top: 145px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">800</div><div style="position: absolute; top: 125px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 5px; text-align: right;">900</div><div style="position: absolute; top: 104px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1000</div><div style="position: absolute; top: 84px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1100</div><div style="position: absolute; top: 63px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1200</div><div style="position: absolute; top: 43px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1300</div><div style="position: absolute; top: 22px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1400</div><div style="position: absolute; top: 2px; font-style: normal; font-variant: normal; font-weight: 400; font-stretch: normal; font-size: 10px; line-height: 12px; font-family: Roboto, sans-serif; color: rgb(165, 165, 165); left: 0px; text-align: right;">1500</div></div></div><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1175px; height: 250px;" width="1175" height="250"></canvas><div class="legend"><table style="position: absolute; top: 13px; right: 15px; font-size: smaller; color: rgb(84, 84, 84); margin-top: -35px; width: auto;"><tbody><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(171,71,188);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="./dashboard.jsp#" onclick="togglePlot(0);
+                                    return false;" style="color: inherit">Phones</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(92,107,192);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="./dashboard.jsp#" onclick="togglePlot(1);
+                                            return false;" style="color: inherit">Tablets</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(38,166,154);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="./dashboard.jsp#" onclick="togglePlot(2);
+                                                    return false;" style="color: inherit">Watches</a></td></tr><tr style="display: block; float: left;"><td class="legendColorBox" style="padding: 5px;"><div style="border:1px solid #fff;padding:1px"><div style="width:4px;height:0;border:5px solid rgb(239,83,80);overflow:hidden"></div></div></td><td class="legendLabel" style="padding: 5px;"><a href="./dashboard.jsp#" onclick="togglePlot(3);
                                                             return false;" style="color: inherit">TVs</a></td></tr></tbody></table></div></div>
                         </div>
                         <div class="col s12 l3">
@@ -104,11 +104,11 @@
             <!-- /Revenue -->
 
 
-            <div class="row">
+<!--            <div class="row">
                 <div class="col s12 l9">
                     <div class="card">
 
-                        <!-- Popular -->
+                         Popular 
                         <div class="title">
                             <h5>Popular</h5>
                         </div>
@@ -170,13 +170,13 @@
                                 </tbody>
                             </table>
                         </div>
-                        <!-- /Popular -->
+                         /Popular 
 
                     </div>
                 </div>
                 <div class="col s12 l3">
                     <div class="card">
-                        <!-- Top Geographic -->
+                         Top Geographic 
                         <div class="title">
                             <h5>Top Geographic</h5>
                         </div>
@@ -242,29 +242,29 @@
                                 </tbody>
                             </table>
                         </div>
-                        <!-- /Top Geographic -->
+                         /Top Geographic 
                     </div>
                 </div>
-            </div>
+            </div>-->
 
         </section>
         <!-- /Main Content -->
 
         <!-- Search Bar -->
-        <div class="search-bar">
+<!--        <div class="search-bar">
             <div class="layer-overlay" style="position: absolute; width: 100%; height: 100%; z-index: 0; transform: scale(1); background: none;"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><g><circle cx="0" cy="0" r="0" fill="rgb(255, 255, 255)"></circle></g></svg></div>
             <div class="layer-content" style="z-index: 2; background: none;">
-                <form action="http://html.nkdev.info/_con/ecommerce-dashboard.html#!">
-                    <!-- Header -->
-                    <a class="search-bar-toggle grey-text text-darken-2" href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!"><i class="mdi-navigation-close"></i></a>
+                <form action="./dashboard.jsp#!">
+                     Header 
+                    <a class="search-bar-toggle grey-text text-darken-2" href="./dashboard.jsp#!"><i class="mdi-navigation-close"></i></a>
 
-                    <!-- Search Input -->
+                     Search Input 
                     <div class="input-field">
                         <i class="mdi-action-search prefix active"></i>
                         <input type="text" name="con-search" placeholder="Search...">
                     </div>
 
-                    <!-- Search Results -->
+                     Search Results 
                     <div class="search-results">
 
                         <div class="row">
@@ -337,7 +337,7 @@
 
                 </form>
             </div>
-        </div>
+        </div>-->
         <!-- /Search Bar -->
 
 
@@ -355,8 +355,8 @@
                 <div class="contacts">
                     <!-- Top Bar -->
                     <div class="topbar">
-                        <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="text">Chat</a>
-                        <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="chat-toggle"><i class="mdi-navigation-close"></i></a>
+                        <a href="./dashboard.jsp#!" class="text">Chat</a>
+                        <a href="./dashboard.jsp#!" class="chat-toggle"><i class="mdi-navigation-close"></i></a>
                     </div>
                     <!-- /Top Bar -->
 
@@ -476,8 +476,8 @@
 
                     <!-- Top Bar with back link -->
                     <div class="topbar">
-                        <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="chat-toggle"><i class="mdi-navigation-close"></i></a>
-                        <a href="http://html.nkdev.info/_con/ecommerce-dashboard.html#!" class="chat-back"><i class="mdi-hardware-keyboard-arrow-left"></i> Back</a>
+                        <a href="./dashboard.jsp#!" class="chat-toggle"><i class="mdi-navigation-close"></i></a>
+                        <a href="./dashboard.jsp#!" class="chat-back"><i class="mdi-hardware-keyboard-arrow-left"></i> Back</a>
                     </div>
                     <!-- /Top Bar with back link -->
 
@@ -561,7 +561,7 @@
 
                     <!-- Send message -->
                     <div class="send">
-                        <form action="http://html.nkdev.info/_con/ecommerce-dashboard.html#!">
+                        <form action="./dashboard.jsp#!">
                             <div class="input-field">
                                 <input id="chat-message" type="text" name="chat-message">
                             </div>
